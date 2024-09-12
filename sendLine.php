@@ -7,7 +7,10 @@ if ($_SERVER['REQUEST_METHOD'] != "POST") {
     header('location: index.php');
     exit();
 } else {
-    $sToken = "FzJFxGZ31sEHxGN5n0Tcv2chDX5kxBviCihN6DumZVM";
+    // $sToken = "FzJFxGZ31sEHxGN5n0Tcv2chDX5kxBviCihN6DumZVM";
+    $sToken = "wQ0bE6jz4tOMKU44veDiPgHPip4dAxZLaB1dZi3tVIX";
+    
+ 
 
     $sMessage = "รายละเอียดการลงทะเบียน \n";
     $sMessage .= "ยินดีต้อนรับคุณ: " . $user . "\n";

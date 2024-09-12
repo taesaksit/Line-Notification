@@ -47,6 +47,7 @@
             </div>
 
             <button type="submit" class="btn btn-primary">Submit</button>
+            <a href="line_access.php" class="btn btn-info mx-3">GET TOKEN LINE</a>
         </form>
 
     </div>
